@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    restart: on-failure
+    ports:
+      - 3000:3000
+
+# gFvBz6Ddru
